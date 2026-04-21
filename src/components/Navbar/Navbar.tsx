@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Navbar.css';
 
 function Navbar() {
@@ -25,7 +25,7 @@ function Navbar() {
     <header className="site-header">
       <div className="container nav-container">
         <a href="#home" className="brand" onClick={() => setActiveHash('#home')}>
-          <img src="/logo.png" alt="SB Logo" className="logo-img" />
+          <img src="/Portfolio/logo.png" alt="SB Logo" className="logo-img" />
           Swarnamoy
         </a>
         <nav className="nav-links">

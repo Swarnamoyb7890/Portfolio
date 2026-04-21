@@ -1,4 +1,3 @@
-import React from 'react';
 import './Hero.css';
 
 function Hero() {
@@ -24,10 +23,10 @@ function Hero() {
         <div className="hero-visual">
           <div className="glow-ring" />
           <div className="logo-watermark">
-            <img src="/logo.png" alt="" aria-hidden="true" />
+            <img src="/Portfolio/logo.png" alt="" aria-hidden="true" />
           </div>
           <div className="profile-circle">
-            <img src="/profile.png" alt="Swarnamoy Banerjee" className="profile-photo" />
+            <img src="/Portfolio/profile.png" alt="Swarnamoy Banerjee" className="profile-photo" />
           </div>
         </div>
       </div>
