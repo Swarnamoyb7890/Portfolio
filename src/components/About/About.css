@@ -1,0 +1,68 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 2rem;
+}
+
+.services {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.service-card {
+  padding: 1rem 1.1rem;
+  border-left: 3px solid var(--accent);
+  background: rgba(8, 26, 44, 0.78);
+  border-radius: 0.7rem;
+}
+
+.service-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.04rem;
+}
+
+.service-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.about-copy h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.about-copy p {
+  color: var(--muted);
+  max-width: 55ch;
+  margin: 0.8rem 0 1.5rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.stats strong {
+  display: block;
+  font-size: 2rem;
+  color: var(--accent-soft);
+}
+
+.stats span {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+@media (max-width: 940px) {
+  .about-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
